@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{7377811c-ddab-482c-8332-f89e1a1fdec1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{0814fcfd-9046-407f-9218-32820662d905}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Settings">
+      <UniqueIdentifier>{cd0b3401-50b1-49e0-ada8-111e37437a5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Context">
+      <UniqueIdentifier>{165dba2c-3f65-4bdc-aa7c-90e29f43d8c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Context">
+      <UniqueIdentifier>{fce75299-28b4-4c57-b4bf-7fbd75457793}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Windowing.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Context\Context.cpp">
+      <Filter>src\Context</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\Windowing.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Settings\WindowSetting.h">
+      <Filter>include\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Context\Context.h">
+      <Filter>include\Context</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Settings\DeveceSetting.h">
+      <Filter>include\Settings</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
