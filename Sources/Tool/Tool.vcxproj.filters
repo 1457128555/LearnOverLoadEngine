@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{78cfff04-6fe6-4fc4-bfcd-65abf44fa40f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{f8f7d276-5c62-4dec-80e9-c2b8fe4938a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Time">
+      <UniqueIdentifier>{e4275e9d-9c9b-4b2c-8721-2749d1eb48e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Time">
+      <UniqueIdentifier>{5bbc6c21-acf8-40de-baf1-f9f3ca454780}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Time\Clock.cpp">
+      <Filter>src\Time</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\Time\Clock.h">
+      <Filter>include\Time</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
