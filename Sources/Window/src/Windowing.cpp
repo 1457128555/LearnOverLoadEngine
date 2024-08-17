@@ -30,6 +30,16 @@ namespace Window
 		glfwGetWindowSize(mHandle, &w, &h);
 	}
 
+	bool Windowing::shouldClose()const
+	{
+		return glfwWindowShouldClose(mHandle);
+	}
+
+	void Windowing::swapBuffers()const
+	{
+		glfwSwapBuffers(mHandle);
+	}
+
 	void Windowing::setPosition(int x, int y)
 	{
 		glfwSetWindowPos(mHandle, x, y);

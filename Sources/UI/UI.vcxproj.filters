@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{2f6bcb8e-6ab7-4347-8592-e566db550106}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{77bf02d5-cd98-4de8-9f43-401484a4135f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImGui">
+      <UniqueIdentifier>{94289ca0-a90f-4294-be29-56feeb3b55a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImGui\include">
+      <UniqueIdentifier>{80e236cf-9bda-4d2e-b008-9c6486504109}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImGui\src">
+      <UniqueIdentifier>{5acd538a-4058-4bd3-a791-f2c809257db5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\UIManager.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ImGui\imconfig.h">
+      <Filter>ImGui\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ImGui\imgui.h">
+      <Filter>ImGui\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ImGui\imgui_impl_glfw.h">
+      <Filter>ImGui\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ImGui\imgui_impl_opengl3.h">
+      <Filter>ImGui\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ImGui\imgui_internal.h">
+      <Filter>ImGui\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ImGui\imstb_rectpack.h">
+      <Filter>ImGui\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ImGui\imstb_textedit.h">
+      <Filter>ImGui\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ImGui\imstb_truetype.h">
+      <Filter>ImGui\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\EStyle.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IDrawable.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\WidgetContainer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Pluginable.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IPlugin.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\AWidget.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DataDispatcher.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\EMemoryMode.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\APanel.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\APanelTransformable.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Alignment.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Converter.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PanelWindow.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PanelWindowSettings.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Canvas.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Button.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\UIManager.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ImGui\imgui.cpp">
+      <Filter>ImGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ImGui\imgui_demo.cpp">
+      <Filter>ImGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ImGui\imgui_draw.cpp">
+      <Filter>ImGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ImGui\imgui_impl_glfw.cpp">
+      <Filter>ImGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ImGui\imgui_impl_opengl3.cpp">
+      <Filter>ImGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ImGui\imgui_widgets.cpp">
+      <Filter>ImGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WidgetContainer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AWidget.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\APanel.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\APanelTransformable.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PanelWindow.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Canvas.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Button.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

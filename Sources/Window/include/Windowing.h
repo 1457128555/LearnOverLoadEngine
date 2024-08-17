@@ -15,6 +15,9 @@ namespace Window
 
 		void makeCurrentContext()	const;
 		void getSize(int&, int&)	const;
+		bool shouldClose()			const;
+		void swapBuffers()			const;
+
 
 		void setPosition(int, int);
 

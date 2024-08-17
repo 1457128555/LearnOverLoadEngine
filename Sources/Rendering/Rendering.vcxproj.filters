@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{cbf6e197-7845-4791-92ca-4dc9be1ad42e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{8afa9e5f-1682-447a-a942-a59adf6c8843}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Settings">
+      <UniqueIdentifier>{1ec48fe8-dfed-4055-acf7-1744b4aa4baf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Data">
+      <UniqueIdentifier>{7c37dedf-90ec-4780-ba86-b8b46bbef935}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Data">
+      <UniqueIdentifier>{90f08935-aec6-40a3-8a7e-18630bb8f1d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Context">
+      <UniqueIdentifier>{2d4af528-6bf5-487e-97c0-455da8b5bce1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Context">
+      <UniqueIdentifier>{c370c437-62de-456f-b519-b444fabb5dee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\HAL">
+      <UniqueIdentifier>{519672ea-d329-4cd7-b0ee-7a7a299f4b00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\HAL">
+      <UniqueIdentifier>{4565ed83-7cf0-4976-9af2-e42c787fe2ae}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\Settings\DriverSettings.h">
+      <Filter>include\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Data\PipelineState.h">
+      <Filter>include\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Context\Driver.h">
+      <Filter>include\Context</Filter>
+    </ClInclude>
+    <ClInclude Include="include\HAL\GraphicsAPI.h">
+      <Filter>include\HAL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Settings\EGraphicsBackend.h">
+      <Filter>include\Settings</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Data\PipelineState.cpp">
+      <Filter>src\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Context\Driver.cpp">
+      <Filter>src\Context</Filter>
+    </ClCompile>
+    <ClCompile Include="src\HAL\GraphicsAPI.cpp">
+      <Filter>src\HAL</Filter>
+    </ClCompile>
+    <ClCompile Include="src\HAL\OpenGL.cpp">
+      <Filter>src\HAL</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
